@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat&family=Gluten:wght@100;200;300;400;500;600&family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&family=Ysabeau:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,1;1,100;1,200;1,300;1,500;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <section id="main">
+    <div class="containe" role="main">
+      <div class="form-container">
+        <form oninput="inputCardInfo()" id="form">
+          <div class="info1">
+            <label>Cardholder Name</label>
+            <input type="text" id="cardName" class=" inpt card-name" placeholder="e.g. Ahmed Yousef" maxlength="18">
+            <label id="nameWrong"></label>
+            <label>Card Number</label>
+            <input type="text" class="inpt  card-number" id="cardNumber" placeholder="e.g. 1234 5678 9123 0000" maxlength="16">
+            <label id="wrongNum"></label>
+          </div>
+
+          <div class="info2">
+            <div>
+              <label class="Exp-label">Exp. Date (MM/YY)</label>
+              <label class="cvc-label">CVC</label>
+            </div>
+            <div>
+              <input type="text" class="mm" id="mm" maxlength="2" placeholder="MM">
+              <input type="text" class="yy" id="yy" maxlength="2" placeholder="YY">
+              <label id="expWrong"></label>
+              <input type="text" class="cvc" name="cvc" id="cvc" maxlength="3" placeholder="  e.g. 123">
+              <label id="cvcWrong"></label>
+            </div>
+          </div>
+          <button type="button" id="Confiem">Confiem</button>
+        </form>
+        <div id="complate">
+          <img src="./images/icon-complete.svg" alt="">
+          <h1>THANK YOU !</h1>
+          <h3>We add your card details</h3>
+          <button type="button">Complate</button>
+        </div>
+  
+      </div>
+
+      
+      <div class="bannar-img" role="banner">
+
+        <div class="card-back" id="cardBack">
+          <h3 id="card-cvc"></h3>
+          <img src="./images/bg-card-back.png" alt="card">
+        </div>
+        <div" class="card" id="card">
+          <img class="logo" src="./images/card-logo.svg" alt="">
+          <h1 id="cardNumTxt">0000 0000 0000 0000</h1>
+          <h4 class="date" id="date"><span id="mSpan">00</span>
+            /
+          <span id="ySpan">00</span>
+          </h4>
+          <h4 class="name" id="cardUserName">Ahmed Yousef</h4>
+
+          <img src="./images/bg-card-front.png" alt="">
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- <div class="attribution" role="contentinfo">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
