@@ -456,13 +456,13 @@ input:focus{
   }
 
   #main .containe .form-container{
-    height: 75%;
+    height: 65%;
     width: 100%;
     position: relative;
   }
 
   #main .containe .form-container form{
-    top: 33%;
+    top: 57%;
     left: 0;
     height: 400px;
   }
