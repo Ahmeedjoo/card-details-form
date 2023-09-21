@@ -425,7 +425,7 @@ input:focus{
 @media (max-width:770px){
   .card-back{
     position: absolute;
-    top:5%;
+    top:24%;
     left: 41%;
     width: 280px;
     box-shadow: -10px 15px 20px hsla(0, 0%, 0%, 0.292);
@@ -435,7 +435,7 @@ input:focus{
   
   .card{
     position: absolute;
-    top:30%;
+    top:55%;
     left: 17%;
     width: 280px;
     box-shadow: -10px 15px 20px hsla(0, 0%, 0%, 0.292);
@@ -451,18 +451,18 @@ input:focus{
   }
 
   .bannar-img{
-    height: 30%;
+    height: 35%;
     width: 100%;
   }
 
   #main .containe .form-container{
-    height: 55%;
+    height: 55% ;
     width: 100%;
     position: absolute;
   }
 
   #main .containe .form-container form{
-    top: 80%;
+    top: 87%;
     left: 25%;
     height: 400px;
     position: absolute;
@@ -483,7 +483,7 @@ input:focus{
   .card-back{
     left: 37%;
     width: 285px;
-    top:13px;
+    top:24%;
   }
 
   #main .containe .form-container form{
@@ -494,13 +494,13 @@ input:focus{
   .card{
     left: 8%;
     width: 240px;
-    top:57%;
+    top:67%;
   }
   
   .card-back{
-    left: 29%;
+    left: 33%;
     width: 240px;
-    top:13%;
+    top:35%;
   }
 
   .card h1{
@@ -516,7 +516,7 @@ input:focus{
   }
 
   #main .containe .form-container form{
-    left:3%;
+    left:2%;
   }
 }
 @media(max-width:376px){
