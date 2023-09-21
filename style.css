@@ -167,12 +167,6 @@ input:focus{
   font-size: 16px;
   border: none;
   cursor: pointer;
-  transition: 0.4s ease-in-out;
-}
-
-.form-container form button:hover , #complate button:hover{
-  background:hsl(278, 66%, 34%) ;
-  box-shadow: 0 3px 10px hsla(240, 0%, 48%, 0.463);
 }
 
 .card-back{
@@ -325,7 +319,6 @@ input:focus{
   font-size: 16px;
   border: none;
   cursor: pointer;
-  transition: 0.4s ease-in-out;
 }
 
 #complate h1{
@@ -425,7 +418,7 @@ input:focus{
 @media (max-width:770px){
   .card-back{
     position: absolute;
-    top:24%;
+    top:5%;
     left: 41%;
     width: 280px;
     box-shadow: -10px 15px 20px hsla(0, 0%, 0%, 0.292);
@@ -435,7 +428,7 @@ input:focus{
   
   .card{
     position: absolute;
-    top:55%;
+    top:30%;
     left: 17%;
     width: 280px;
     box-shadow: -10px 15px 20px hsla(0, 0%, 0%, 0.292);
@@ -446,26 +439,21 @@ input:focus{
     height: 490px;
   }
 
-  #complate{
-    top: 40% !important;
-  }
-
   .bannar-img{
-    height: 35%;
+    height: 25%;
     width: 100%;
   }
 
   #main .containe .form-container{
-    height: 55% ;
+    height: 75%;
     width: 100%;
-    position: absolute;
+    position: relative;
   }
 
   #main .containe .form-container form{
-    top: 87%;
-    left: 25%;
+    top: 39%;
+    left: 0;
     height: 400px;
-    position: absolute;
   }
 
   #complate {
@@ -483,24 +471,20 @@ input:focus{
   .card-back{
     left: 37%;
     width: 285px;
-    top:24%;
-  }
-
-  #main .containe .form-container form{
-    left: 15%;
+    top:13px;
   }
 }
 @media (max-width:480px){
   .card{
-    left: 8%;
+    left: 5%;
     width: 240px;
-    top:67%;
+    top:50%;
   }
   
   .card-back{
-    left: 33%;
+    left: 37%;
     width: 240px;
-    top:35%;
+    top:9%;
   }
 
   .card h1{
@@ -514,19 +498,14 @@ input:focus{
   .card .name {
     font-size: 12px;
   }
-
-  #main .containe .form-container form{
-    left:2%;
-  }
 }
 @media(max-width:376px){
   #main .containe .form-container form{
     width: 100% !important;
-    left: 0;
   }
 
   .card-back{
-    left: 29%;
+    left: 25%;
     top:10%
   }
 
