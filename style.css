@@ -13,6 +13,7 @@
   font-size: 11px;
   text-align: center;
   width: 100vw;
+  display: inline-block;
 }
 
 .attribution a {
@@ -342,6 +343,20 @@ input:focus{
   border: 2px solid red;
 }
 
+#infoMe{
+  position: relative;
+  top: 42%;
+  left: 10%;
+  border: none;
+  background: hsl(278, 68%, 11%);
+  color: #fff;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-size: 18px;
+  box-shadow: 0 3px 10px rgba(104, 104, 104, 0.7);
+  cursor: pointer;
+}
+
 @media(min-width:1200px), (max-width:1440px){
   .card-back{
     position: absolute;
@@ -380,6 +395,13 @@ input:focus{
     width: 350px !important;
     height: 490px;
   }
+
+  #infoMe{
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    top: 45%;
+  }
 }
 @media (max-width:960px){
   .card-back{
@@ -413,6 +435,11 @@ input:focus{
   
   .card .name {
     font-size: 14px;
+  }
+
+  #infoMe{
+    top: 45%;
+    left: 2%;
   }
 }
 @media (max-width:770px){
@@ -465,6 +492,13 @@ input:focus{
   #complate {
     top: 40%;
     position: relative;
+  }
+  #infoMe{
+    padding: 10px 7px;
+    border-radius: 8px;
+    font-size: 14px;
+    top: 10%;
+    left: 35%;
   }
 }
 @media (max-width:560px){
