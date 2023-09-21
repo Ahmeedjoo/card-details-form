@@ -451,18 +451,18 @@ input:focus{
   }
 
   .bannar-img{
-    height: 25%;
+    height: 30%;
     width: 100%;
   }
 
   #main .containe .form-container{
     height: 65%;
     width: 100%;
-    position: relative;
+    position: absolute;
   }
 
   #main .containe .form-container form{
-    top: 57%;
+    top: 50%;
     left: 0;
     height: 400px;
   }
