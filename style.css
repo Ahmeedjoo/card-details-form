@@ -167,6 +167,12 @@ input:focus{
   font-size: 16px;
   border: none;
   cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.form-container form button:hover , #complate button:hover{
+  background:hsl(278, 66%, 34%) ;
+  box-shadow: 0 3px 10px hsla(240, 0%, 48%, 0.463);
 }
 
 .card-back{
@@ -179,6 +185,14 @@ input:focus{
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: translateX(150px);
+  opacity: 0;
+  transition: 0.9s ease;
+}
+
+.card-back.show{
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .card-back img{
@@ -197,6 +211,14 @@ input:focus{
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: translateX(-150px);
+  transition: 0.9s ease;
+  opacity: 0;
+}
+
+.card.show {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 #card-cvc{
@@ -303,6 +325,7 @@ input:focus{
   font-size: 16px;
   border: none;
   cursor: pointer;
+  transition: 0.4s ease-in-out;
 }
 
 #complate h1{
@@ -406,6 +429,8 @@ input:focus{
     left: 41%;
     width: 280px;
     box-shadow: -10px 15px 20px hsla(0, 0%, 0%, 0.292);
+    transform: translateX(0) translateY(-200px);
+    opacity: 1;
   }
   
   .card{
@@ -419,6 +444,10 @@ input:focus{
   .form-container form{
     width: 380px !important;
     height: 490px;
+  }
+
+  #complate{
+    top: 40% !important;
   }
 
   .bannar-img{
@@ -458,15 +487,15 @@ input:focus{
 }
 @media (max-width:480px){
   .card{
-    left: 5%;
+    left: 8%;
     width: 240px;
-    top:50%;
+    top:57%;
   }
   
   .card-back{
     left: 29%;
     width: 240px;
-    top:9%;
+    top:13%;
   }
 
   .card h1{
@@ -487,7 +516,7 @@ input:focus{
   }
 
   .card-back{
-    left: 25%;
+    left: 29%;
     top:10%
   }
 
