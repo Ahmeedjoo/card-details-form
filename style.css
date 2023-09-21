@@ -442,22 +442,28 @@ input:focus{
   .bannar-img{
     height: 25%;
     width: 100%;
+    position: absolute;
   }
 
-  #main .containe .form-container{
-    height: 75%;
-    width: 100%;
+  #main .containe{
     position: relative;
   }
 
+  #main .containe .form-container{
+    height: 65%;
+    width: 100%;
+    position: absolute;
+  }
+
   #main .containe .form-container form{
-    top: 39%;
-    left: 0;
+    top: 69%;
+    left: 22%;
     height: 400px;
+    position: absolute;
   }
 
   #complate {
-    top: 60%;
+    top: 40%;
     position: relative;
   }
 }
@@ -473,18 +479,21 @@ input:focus{
     width: 285px;
     top:13px;
   }
+  #main .containe .form-container form{
+    left: 15%;
+  }
 }
 @media (max-width:480px){
   .card{
     left: 5%;
     width: 240px;
-    top:50%;
+    top:70%;
   }
   
   .card-back{
-    left: 37%;
+    left: 32%;
     width: 240px;
-    top:9%;
+    top:29%;
   }
 
   .card h1{
@@ -498,10 +507,15 @@ input:focus{
   .card .name {
     font-size: 12px;
   }
+
+  #main .containe .form-container form{
+    left: 3%;
+  }
 }
 @media(max-width:376px){
   #main .containe .form-container form{
     width: 100% !important;
+    top: 62%;
   }
 
   .card-back{
