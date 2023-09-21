@@ -462,9 +462,10 @@ input:focus{
   }
 
   #main .containe .form-container form{
-    top: 50%;
-    left: 0;
+    top: 70%;
+    left: 25%;
     height: 400px;
+    position: absolute;
   }
 
   #complate {
@@ -483,6 +484,10 @@ input:focus{
     left: 37%;
     width: 285px;
     top:13px;
+  }
+
+  #main .containe .form-container form{
+    left: 15%;
   }
 }
 @media (max-width:480px){
@@ -509,10 +514,15 @@ input:focus{
   .card .name {
     font-size: 12px;
   }
+
+  #main .containe .form-container form{
+    left:3%;
+  }
 }
 @media(max-width:376px){
   #main .containe .form-container form{
     width: 100% !important;
+    left: 0;
   }
 
   .card-back{
