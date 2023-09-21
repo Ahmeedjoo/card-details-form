@@ -456,7 +456,7 @@ input:focus{
   }
 
   #main .containe .form-container form{
-    top: 69%;
+    top: 62%;
     left: 22%;
     height: 400px;
     position: absolute;
@@ -515,7 +515,7 @@ input:focus{
 @media(max-width:376px){
   #main .containe .form-container form{
     width: 100% !important;
-    top: 62%;
+    top: 55% !important;
   }
 
   .card-back{
