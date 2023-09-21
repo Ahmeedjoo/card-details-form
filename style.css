@@ -44,7 +44,7 @@
 }
 
 #main .containe .form-container {
-  height: 100vh !important;
+  height: 100%;
   background-color: hsl(0, 0%, 100%);
   width: 65%;
   float: right;
@@ -250,18 +250,6 @@ input:focus{
   border: 2px solid red;
 }
 
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
--webkit-appearance: none;
-margin: 0;
-}
-
-
-input[type=number] {
-  -moz-appearance: textfield;
-}
-
 #expWrong{
   position: absolute;
   font-size: 14px;
@@ -414,17 +402,17 @@ input[type=number] {
 @media (max-width:770px){
   .card-back{
     position: absolute;
-    top:37%;
+    top:5%;
     left: 41%;
-    width: 300px;
+    width: 280px;
     box-shadow: -10px 15px 20px hsla(0, 0%, 0%, 0.292);
   }
   
   .card{
     position: absolute;
-    top:69%;
+    top:30%;
     left: 17%;
-    width: 300px;
+    width: 280px;
     box-shadow: -10px 15px 20px hsla(0, 0%, 0%, 0.292);
   }
 
@@ -434,18 +422,18 @@ input[type=number] {
   }
 
   .bannar-img{
-    height: 35%;
+    height: 25%;
     width: 100%;
   }
 
   #main .containe .form-container{
-    height: 65%;
+    height: 75%;
     width: 100%;
     position: relative;
   }
 
   #main .containe .form-container form{
-    top: 54%;
+    top: 39%;
     left: 0;
     height: 400px;
   }
@@ -459,26 +447,26 @@ input[type=number] {
   .card{
     left: 10%;
     width: 285px;
-    top:57%;
+    top:55%;
   }
   
   .card-back{
     left: 37%;
     width: 285px;
-    top:33px;
+    top:13px;
   }
 }
 @media (max-width:480px){
   .card{
-    left: 10%;
-    width: 220px;
-    top:69%;
+    left: 5%;
+    width: 240px;
+    top:50%;
   }
   
   .card-back{
-    left: 37%;
-    width: 220px;
-    top:45%;
+    left: 29%;
+    width: 240px;
+    top:9%;
   }
 
   .card h1{
@@ -499,12 +487,12 @@ input[type=number] {
   }
 
   .card-back{
-    left: 27%;
-    top:35%
+    left: 25%;
+    top:10%
   }
 
   .card{
-    top: 62% !important;
+    top: 51% !important;
   }
 }
 
